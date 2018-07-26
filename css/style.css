@@ -1,3 +1,13 @@
+html,body{
+   height:100%;
+}
+.carousel,.item,.active{
+   height:100%;
+ }
+.carousel-inner{
+    height:100%;
+}
+
 header {
    position: relative;
    width: 100%;
@@ -48,7 +58,7 @@ header {
        margin-left: auto;
        margin-right: auto;
        text-align: center;
-     }
+         }
      header .header-content .header-content-inner h1 {
        font-size: 30px;
        text-align: center;
@@ -88,12 +98,30 @@ header {
    hr.light {
    /* border-color: white; */
    border-width: 4px;
-   max-width: 200px;
+   max-width: 180px;
  }
  .background-section {
    /* background-image: url('../img/aperto.jpg'); */
    background-color: white;
  }
  .thumbnail {
-   border: 2px solid #3ebcb2 !important;
+   border: 1px solid #2980b9 !important;
+   /* margin-bottom: 5px !important; */
  }
+
+a:focus, a:hover {
+color: white !important;
+text-decoration:none !important;
+background-color: #2980b9;
+}
+/*  por no img essa classe, ajuste tamanho da imagem */
+.tamb-img {
+  /* width: 80%; */
+  /* height: 200px !important; */
+  max-width:200px;
+  max-height:200px;
+}
+.tam-img-carousel{
+  width:980px;
+  height:590px;
+}
